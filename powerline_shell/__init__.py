@@ -11,7 +11,7 @@ import re
 
 
 def _current_dir():
-    """Returns the full current working directory as the user would have used
+    r"""Returns the full current working directory as the user would have used
     in their shell (ie. without following symbolic links).
 
     With the introduction of Bash for Windows, we can't use the PWD environment
